@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(240, 220, 193);
+    text-align: center;
+}
+.container{
+    display: flex; /*   all in same line */
+    justify-content: center;
+    align-items: center;
+}
+.button{
+    height: 200px;
+    width: 200px;
+    border: 2px solid;
+    border-color: black;
+    border-radius: 20%;
+    margin: 20px;
+}
+/* line-one div will take full capacity they have so next div will be in next line */
+.red{
+    background-color: rgb(255, 0, 76);
+}
+.yellow{
+    background-color: rgb(247, 239, 2);
+}
+.green{
+    background-color: rgb(24, 253, 55);
+}
+.purple{
+    background-color: rgb(255, 0, 157);
+}
+.flash{
+    background-color: white;
+}
